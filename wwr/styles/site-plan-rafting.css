@@ -5,8 +5,8 @@ Fonts are separated by a & */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sevillana&display=swap');
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #FF8CE6   ;
-  --secondary-color: #6073B3 ;
+  --primary-color: #F2B749   ;
+  --secondary-color: #F2B749 ;
   --accent1-color: #FFF5AA;
   --accent2-color: #77B385;
 
