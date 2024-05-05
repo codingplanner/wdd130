@@ -5,25 +5,25 @@ Fonts are separated by a & */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sevillana&display=swap');
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #F2B749   ;
-  --secondary-color: #F2B749 ;
-  --accent1-color: #FFF5AA;
-  --accent2-color: #77B385;
+  --primary-color: #12547D   ;
+  --secondary-color: #D57120 ;
+  --accent1-color: #72A02C;
+  --accent2-color: #F9E04D;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Sevillana", cursive;
   --paragraph-font: Playfair Display, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
+  --headline-color-on-white: #D57120;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: #12547D; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
-  --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
+  --paragraph-background-color: #12547D  ;
+  --nav-link-color: black;
+  --nav-background-color: #F9E04D;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --nav-hover-background-color: #D57120;
 }
 
 
