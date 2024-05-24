@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poetsen+One&family=Sevillana&display=swap');
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +7,8 @@ nav a{
     text-align: center;
     color: #12547d;
     text-decoration: none;
+    font-family: "Playfair Display", arial, sans-serif;
+    padding: 35px;
 }
 nav a:hover{
     background-color: #d57120;
@@ -17,6 +20,7 @@ nav a:hover{
 }
 #hero-msg h4{
     text-align: center;
+    font-family: "Playfair Display", arial, sans-serif;
 }
 .button-box{
     text-align: center;
@@ -30,6 +34,9 @@ main section{
 }
 body{
     background-color: #12547d;
+    font-size: 22px;
+    padding: 0px;
+    margin: 0px;
 }
 header{
     background-color: #f9e04d;
@@ -38,6 +45,10 @@ header{
     background-color: #f9e04d;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join:hover{
     background-color: #12547d;
@@ -47,6 +58,11 @@ header{
     background-color: #f9e04d;
     color: black;
     text-decoration: none;
+    font-family: "Playfair Display", arial, sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover{
     background-color: #d57120;
@@ -55,21 +71,34 @@ header{
 }
 .msg{
     background-color: #d57120;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color: #72a02c;
+    font-family: "Playfair Display", arial, sans-serif;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title-h4{
     color: white;
+    font-family: "Playfair Display", arial, sans-serif;
 }
 .home-title{
     color: #f9e04d;
+    font-family: "Poetsen One", cursive, helvetica;
+    font-size: 2em;
+    margin-top: 10px;
 }
 .msg h2{
     color: black;
+    font-family: "Poetsen One", cursive, helvetica;
 }
 .msg p{
     color: white;
+    font-family: "Playfair Display", arial, sans-serif;
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 footer a{
     color: white;
@@ -80,16 +109,52 @@ footer a:hover{
 }
 .logo{
     width: 80px;
+    padding-top: 5px;
+    border-radius: 25%;
 }
 .icon{
     width: 80px;
-}
-footer p{
- font-size: 1.2em;
+    padding-top: 10px;
 }
 footer p a:hover{
     text-decoration: underline;
 }
 #hero-img{
     width: 100%;
+}
+.river-card{
+    margin: 200px 0px;
+}
+.camping-card{
+    margin: 200px 0px;
+}
+.rapids-card{
+    margin:200px 0px;
+}
+.river-card h2{
+    font-family: "Playfair Display", arial, sans-serif;
+}
+.rapids-card h2{
+    font-family: "Playfair Display", arial, sans-serif;
+}
+.camping-card h2{
+    font-family: "Playfair Display", arial, sans-serif;
+}
+h2{
+    margin: 0px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.card-img{
+    border: 10px solid #d57120;
+}
+main section img{
+    box-sizing:content-box
+}
+footer p{
+    font-size: 1.2em;
+}
+.mountains{
+    margin: 100px 0px;
 }
