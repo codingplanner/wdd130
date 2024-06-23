@@ -220,12 +220,12 @@ footer p{
 .heading {
     color: white;
     font-family: "Playfair Display", arial, sans-serif;
-    margin: 3% auto auto 5%;
+    margin: 5% 17% auto 10%;
 }
 .paragraph {
     color: white;
     font-family: "Playfair Display", arial, sans-serif;
-    margin: 2% 5% 5% 10%;
+    margin: 2% 17% 5% 17%;
 }
 .raftingfaq {
     display: grid;
