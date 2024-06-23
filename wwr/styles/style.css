@@ -217,6 +217,35 @@ footer p{
 .card-img, .mountains{
     width: 100%;
 }
+.heading {
+    color: white;
+    font-family: "Playfair Display", arial, sans-serif;
+    margin: 3% auto auto 5%;
+}
+.paragraph {
+    color: white;
+    font-family: "Playfair Display", arial, sans-serif;
+    margin: 2% 5% 5% 10%;
+}
+.raftingfaq {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.faqimg {
+    display: block;
+    margin: 3% auto;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.faq{
+    color: black;
+    font-family: "Playfair Display", arial, sans-serif;
+    font-size: 7em;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+    margin: 10% auto auto auto;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
