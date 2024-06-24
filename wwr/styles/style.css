@@ -257,6 +257,7 @@ footer p{
     padding: 1em;
     border: 1px solid #ccc;
     border-radius: 1em;
+    margin: 3% auto auto auto;
   }
   
   ul {
